@@ -1,5 +1,5 @@
 const settings = {
-  packname: 'Queen Riam',
+  packname: 'XOLO-390',
   author: 'XOLO_390',
   botName: 'JISHNU',
   botOwner: 'XOLO_390',
