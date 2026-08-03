@@ -36,7 +36,7 @@ async function aliveCommand(sock, chatId, message) {
 
         const aliveMessage =
             `👋 \`\`\` ${greeting} \`\`\`\n\n` +
-            `_*${settings.botName || "Queen Riam"} ${t.alive_subtitle}*_\n\n` +
+            `_*${settings.botName || "XOLO_399"} ${t.alive_subtitle}*_\n\n` +
             `${t.alive_system_status}\n` +
             `> ${t.alive_version} ${settings.version}\n` +
             `> ${t.alive_memory} ${usedMemory}MB / ${totalMemory}GB\n` +
@@ -44,14 +44,14 @@ async function aliveCommand(sock, chatId, message) {
             `> ${t.alive_runtime} ${botUptime}\n` +
             `> ${platformEmoji} ${t.alive_platform} ${host}\n` +
             `> ${t.alive_node} ${nodeVersion}\n\n` +
-            `📢 Channel: https://whatsapp.com/channel/0029Va8YUl50bIdtVMYnYd0E\n\n` +
+
             `*${settings.botName || "Queen Riam"} ${t.alive_online}*\n\n` +
-            `> ${t.alive_powered} ${settings.ownerName || "Héctor Manuel"} 👑`;
+            `> ${t.alive_powered} ${settings.ownerName || "JISHNU"} 👑`;
 
         if (isButtonModeOn()) {
             await sendButtonMessage(sock, chatId, {
                 text: aliveMessage,
-                footer: `${settings.botName || "Queen Riam"} 👑`,
+                footer: `${settings.botName || "XOLO_390"} 👑`,
                 buttons: [
                     { id: '.ping', text: t.alive_ping_btn },
                 ],
